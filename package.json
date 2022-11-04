@@ -1,0 +1,19 @@
+{
+  "name": "node_express",
+  "version": "0.0.1",
+  "description": "Rest API Curso",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Maria Rodriguez Arango",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
